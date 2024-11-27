@@ -21,7 +21,8 @@
   ],
   "scripts": {
     "lint": "eslint --fix \"src/**/*.{js,ts,jsx,tsx,astro}\"",
-    "astro:check": "astro check"
+    "astro:check": "astro check",
+    "build": "astro build"
   },
   "devDependencies": {
     "@types/jasmine": "^4.3.5",
