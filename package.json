@@ -1,6 +1,6 @@
 {
   "name": "@sferg989/astro-utils",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "type": "module",
   "exports": {
     ".": "./index.ts"
@@ -37,7 +37,7 @@
     "tsmockit": "^2.0.6"
   },
   "peerDependencies": {
-    "astro": "^4.0.0"
+    "astro": "^5.0.0"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
