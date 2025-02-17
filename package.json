@@ -1,6 +1,6 @@
 {
   "name": "@sferg989/astro-utils",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "exports": {
     ".": "./index.ts"
@@ -22,7 +22,8 @@
   "scripts": {
     "lint": "eslint --fix \"src/**/*.{js,ts,jsx,tsx,astro}\"",
     "astro:check": "astro check",
-    "build": "astro build"
+    "build": "astro build",
+    "all": "npm run lint && npm run astro:check && npm run build"
   },
   "devDependencies": {
     "@types/jasmine": "^4.3.5",
